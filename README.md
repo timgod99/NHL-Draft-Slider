@@ -1,21 +1,11 @@
 # NHL-Draft-Slider
 JavaScript written for NHL Draft Slider
 
-
-
-<script>
-function tick(){
-    $('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
-}
-setInterval(function(){ tick () }, 8000);
-
-</script>
-
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<!--<script src="http://www.sportsnetwork.com/includes/events/nhl/tradedeadline/tickerjQuery.js"></script>-->
+<script src="http://www.sportsnetwork.com/includes/events/nhl/tradedeadline/tickerjQuery.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <style type="text/css">
-<!--
+
 .bottomwhite {
 border-bottom: 2px solid #FFFFFF;
 }
@@ -39,7 +29,7 @@ border-bottom: 2px solid #FFFFFF;
 	vertical-align: top;
 
 	}
--->
+
 </style>
 
 
