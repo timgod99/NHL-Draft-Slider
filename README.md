@@ -6,7 +6,7 @@ JavaScript written for NHL Draft Slider
 <!--<script src="/trade_deadline.js"></script>-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <style type="text/css">
-
+<!--
 .bottomwhite {
 border-bottom: 2px solid #FFFFFF;
 }
@@ -30,7 +30,7 @@ border-bottom: 2px solid #FFFFFF;
 	vertical-align: top;
 
 	}
-
+-->
 </style>
 
 
