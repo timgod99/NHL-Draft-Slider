@@ -2,7 +2,7 @@
 JavaScript written for NHL Draft Slider
 
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<script src="http://www.sportsnetwork.com/includes/events/nhl/tradedeadline/tickerjQuery.js"></script>
+<script src="/trade_deadline.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <style type="text/css">
 
