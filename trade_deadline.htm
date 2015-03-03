@@ -2,14 +2,6 @@
 JavaScript written for NHL Draft Slider
 
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<script>
-function tick(){
-    $('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
-}
-setInterval(function(){ tick () }, 8000);
-
-</script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <style type="text/css">
 
 .bottomwhite {
@@ -37,7 +29,13 @@ border-bottom: 2px solid #FFFFFF;
 	}
 
 </style>
+<script>
+function tick(){
+    $('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
+}
+setInterval(function(){ tick () }, 8000);
 
+</script>
 
 <table cellpadding="0" cellspacing="0" border="0" align="center" width="300" bgcolor="#232323">
 <tr>
